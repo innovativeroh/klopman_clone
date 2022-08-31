@@ -177,7 +177,7 @@
     <header class="header-mobile">
         <nav class="mobile-nav">
             <button class="hamburger"><i class="fa fa-bars"></i></button>
-            <img src="assets/img/logo-color.png" class="logo-mobile" alt="">
+            <img src="assets/img/logo-klopman.png" class="logo-mobile" alt="">
             <div style="display: flex; flex-direction: column; align-items: center;">
                 <button class="profile-btn"><i class="fa fa-user"></i></button>
                 <button class="language">
