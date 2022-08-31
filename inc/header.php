@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Header</title>
-    <link rel="stylesheet" href="new-header.css">
+    <link rel="stylesheet" href="../assets/css/main.css">
     <script src="https://kit.fontawesome.com/f157c27a78.js" crossorigin="anonymous"></script>
 </head>
 
