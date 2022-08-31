@@ -6,8 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Header</title>
-    <link rel="stylesheet" href="../assets/css/main.css">
+    <link rel="stylesheet" href="new-header.css">
     <script src="https://kit.fontawesome.com/f157c27a78.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./assets/css/main.css">
 </head>
 
 <body>
@@ -42,8 +43,10 @@
                 </a>
             </ul>
         </nav>
+        <div class="main-nav-container">
+
         <nav class="main-nav">
-            <img src="assets/img/logo-color.png" alt="" class="logo">
+            <img src="assets/img/logo-klopman.png" alt="" class="logo">
             <ul class="main-menu">
                 <li class="nav-link">
                     CORPORATE<i class="fa fa-plus"></i>
@@ -168,8 +171,8 @@
                 <button class="nav-btn">Fabric Finder</button>
             </a>
         </nav>
+        </div>
     </header>
-
 
     <header class="header-mobile">
         <nav class="mobile-nav">
@@ -279,30 +282,72 @@
                                 <!-- <p class="test">hello</p> -->
                                 <div class="child-dropdown">
                                     <ul>
-                                        <a href="#">
-                                            <li>Lightwork</li>
-                                        </a>
-                                        <a href="#">
-                                            <li>History</li>
-                                        </a>
-                                        <a href="#">
-                                            <li>Our plants</li>
-                                        </a>
-                                        <a href="#">
-                                            <li>Manufacturing and certifications</li>
-                                        </a>
-                                        <a href="#">
-                                            <li>Management</li>
-                                        </a>
-                                        <a href="#">
-                                            <li>Our Partners</li>
-                                        </a>
-                                        <a href="#">
-                                            <li>Careers</li>
-                                        </a>
-                                        <a href="#">
-                                            <li>Kai Fabrics</li>
-                                        </a>
+                                        <div class="dropdown-links-container">
+                                            <div class="link-container dropdown-in-dropdown lowest-dropdown">
+                                                <li>LightWork</li>
+                                                <i class="fa fa-angle-down"></i>
+                                            </div>
+                                            <div class="child-dropdown">
+                                                <ul>
+                                                    <a href="#">
+                                                        <div class="child-dropdown-link">
+                                                            <li>Healthcare</li>
+                                                             <i class="fa fa-angle-right"></i>       
+                                                        </div>
+                                                    </a>
+                                                    <a href="#">
+                                                        <div class="child-dropdown-link">
+                                                            <li>Pharmaceuticals, Laboratories and Cleanrooms</li>
+                                                             <i class="fa fa-angle-right"></i>       
+                                                        </div>
+                                                    </a>
+                                                    <a href="#">
+                                                        <div class="child-dropdown-link">
+                                                            <li>Hospitality and Image Uniform</li>
+                                                             <i class="fa fa-angle-right"></i>       
+                                                        </div>
+                                                    </a>
+                                                    <a href="#">
+                                                        <div class="child-dropdown-link">
+                                                            <li>Food and Drink Production</li>
+                                                             <i class="fa fa-angle-right"></i>       
+                                                        </div>
+                                                    </a>
+                                                    <a href="#">
+                                                        <div class="child-dropdown-link">
+                                                            <li>Services and Retail</li>
+                                                             <i class="fa fa-angle-right"></i>       
+                                                        </div>
+                                                    </a>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="dropdown-links-container">
+                                            <div class="link-container dropdown-in-dropdown lowest-dropdown">
+                                                <li>MediumWork</li>
+                                                <i class="fa fa-angle-down"></i>
+                                            </div>
+                                            <div class="child-dropdown">
+                                                <ul>
+                                                    <a href="#">
+                                                        <li>hello</li>
+                                                    </a>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="dropdown-links-container">
+                                            <div class="link-container dropdown-in-dropdown lowest-dropdown">
+                                                <li>HardWork</li>
+                                                <i class="fa fa-angle-down"></i>
+                                            </div>
+                                            <div class="child-dropdown">
+                                                <ul>
+                                                    <a href="#">
+                                                        <li>hello</li>
+                                                    </a>
+                                                </ul>
+                                            </div>
+                                        </div>
                                     </ul>
                                 </div>
                             </a>
